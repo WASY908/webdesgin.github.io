@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    max-width: 90%; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color: #711e15;
+    color: #fff;
+    padding: 10px 0;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1 {
+    background-color: #f9c3b6;
+    padding: 30px 0;
+}
+
+.section1 h1 {
+    color: #37110d;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #120e2e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #711e15;
+}
+
+#demo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.box {
+    background-color: #f9c3b6;
+    border: 2px solid #37110d;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+table {
+    background-color: #f9c3b6;
+}
+
+.table tr:hover {
+    background-color: #ebe3e3; 
+    transition: background-color 0.3s ease;
+}
+
+
+.box:hover {
+    background-color: #711e15; 
+    color: #fff; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.table tbody tr:hover {
+    background-color: #711e15; 
+    color: #fff; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.maximize-life-section {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+.maximize-life-content h2 {
+    font-size: 2rem;
+    color: #37110d;
+    margin-bottom: 20px;
+}
+
+.maximize-life-content p {
+    font-size: 1.2rem;
+    color: #711e15;
+    margin-bottom: 20px;
+}
+
+.maximize-life-content .btn {
+    background-color: #120e2e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.maximize-life-content .btn:hover {
+    background-color: #711e15;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9c3b6ff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.feature:hover {
+    background-color: #711e15;
+    color: #d3cece;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #676161;
+}
+
+
+
+footer{
+    background-color: #0b0a0e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
